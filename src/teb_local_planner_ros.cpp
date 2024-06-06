@@ -466,7 +466,7 @@ bool TebLocalPlannerROS::isGoalReached()
 {
   if (goal_reached_)
   {
-    ROS_INFO("GOAL Reached!");
+    // ROS_INFO("GOAL Reached!");
     planner_->clearPlanner();
     return true;
   }
